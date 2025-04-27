@@ -190,28 +190,23 @@ header.hero {
   color: #6772e5;
 }
 
-/* ===== FAQ Section ===== */
-.faq {
-  padding: 4rem 2rem;
-  background-color: #121212;
+/* ===== Antivirus Disclosure Section ===== */
+.disclosure {
+  padding: 3rem 2rem;
+  background-color: #1a1b1f;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #cccccc;
 }
 
-.faq h2 {
-  font-size: 2rem;
+.disclosure h2 {
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #00e0ff;
 }
 
-.faq h3 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  color: #ffffff;
-}
-
-.faq p {
-  font-size: 1rem;
-  margin-top: 1rem;
-  color: #cccccc;
+.disclosure p {
+  margin-bottom: 1rem;
 }
 
 /* ===== Footer ===== */
@@ -220,7 +215,7 @@ footer {
   padding: 1.5rem;
   font-size: 0.95rem;
   background-color: #121212;
-  color: #ffffff; /* <-- updated to pure white */
+  color: #ffffff;
 }
 
 /* ===== Animations ===== */
