@@ -220,7 +220,7 @@ footer {
   padding: 1.5rem;
   font-size: 0.95rem;
   background-color: #121212;
-  color: #777;
+  color: #ffffff; /* <-- updated to pure white */
 }
 
 /* ===== Animations ===== */
