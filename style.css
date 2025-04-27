@@ -50,9 +50,7 @@ header.hero {
 
 .hero-benefits {
   list-style: none;
-  margin: 0 0 2rem 0;
-  padding: 0;
-  color: #ffffff;
+  margin-bottom: 2rem;
 }
 
 .hero-benefits li {
@@ -68,7 +66,8 @@ header.hero {
 }
 
 /* ===== Call to Action Buttons ===== */
-.cta-buttons .btn-primary {
+.cta-buttons .btn-primary,
+.btn-primary-large {
   background-color: #6772e5;
   color: #ffffff;
   text-decoration: none;
@@ -80,7 +79,8 @@ header.hero {
   display: inline-block;
 }
 
-.cta-buttons .btn-primary:hover {
+.cta-buttons .btn-primary:hover,
+.btn-primary-large:hover {
   background-color: #5469d4;
   transform: translateY(-4px) scale(1.02);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
@@ -89,24 +89,13 @@ header.hero {
 .btn-primary-large {
   padding: 16px 32px;
   font-size: 1.25rem;
-  background-color: #6772e5;
-  color: #fff;
   border-radius: 12px;
-  transition: transform 0.3s, background-color 0.3s;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.btn-primary-large:hover {
-  transform: translateY(-3px) scale(1.02);
-  background-color: #5469d4;
 }
 
 /* ===== Features Section ===== */
 .features {
   padding: 5rem 2rem;
   background-color: #1f2024;
-  color: #ffffff;
 }
 
 .features .feature-grid {
@@ -179,13 +168,13 @@ header.hero {
   color: #b8b8c7;
 }
 
-/* ===== Support & Footer ===== */
+/* ===== Support Section ===== */
 .support {
   padding: 3rem 2rem;
   background-color: #1f2024;
 }
 
-.support h3 {
+.support h2 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
   color: #00e0ff;
@@ -201,6 +190,31 @@ header.hero {
   color: #6772e5;
 }
 
+/* ===== FAQ Section ===== */
+.faq {
+  padding: 4rem 2rem;
+  background-color: #121212;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00e0ff;
+}
+
+.faq h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.faq p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #cccccc;
+}
+
+/* ===== Footer ===== */
 footer {
   text-align: center;
   padding: 1.5rem;
@@ -234,31 +248,33 @@ footer {
 /* ===== Responsive Design ===== */
 @media (max-width: 768px) {
   .headline {
-      font-size: 2.75rem;
+    font-size: 2.75rem;
   }
   .subtitle {
-      font-size: 1.1rem;
+    font-size: 1.1rem;
   }
   .feature-grid {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .feature-card {
-      width: 90%;
+    width: 90%;
   }
 }
 
 @media (max-width: 480px) {
   .logo {
-      width: 100px;
+    width: 100px;
   }
-  .btn-primary-large, .btn-primary {
-      width: 100%;
+  .btn-primary-large,
+  .btn-primary {
+    width: 100%;
   }
 }
 
 /* ===== Accessibility: Focus Outlines ===== */
-.btn-primary:focus, .btn-primary-large:focus {
+.btn-primary:focus,
+.btn-primary-large:focus {
   outline: 2px solid #00e0ff;
   outline-offset: 2px;
 }
